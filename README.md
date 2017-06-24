@@ -26,5 +26,5 @@ cfg add .bashrc
 git add -u
 ```
 
-# ~/.dotfiles/
+# ~/dotfiles/
 Use this directory to store extra stuff
