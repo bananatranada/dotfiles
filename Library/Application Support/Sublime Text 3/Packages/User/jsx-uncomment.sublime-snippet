@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1:${SELECTION/(\{\/\*|\*\/\})//g}}
+]]></content>
+  <!-- Hit `jc` in any JS document to get a JSX comment -->
+  <tabTrigger>jxxcc</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
