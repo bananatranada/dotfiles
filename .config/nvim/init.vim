@@ -18,6 +18,9 @@ if dein#load_state('/Users/bryankang/.vim/bundles')
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
   call dein#add('mhartington/oceanic-next')
+  call dein#add('tpope/vim-commentary')
+  call dein#add('pangloss/vim-javascript', { 'on_ft': ['javascript', 'js'] })
+  call dein#add('mxw/vim-jsx')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
@@ -44,11 +47,9 @@ if (has("termguicolors"))
 endif
 syntax enable
 colorscheme OceanicNext
+  
+let g:jsx_ext_required = 0
 
-filetype plugin indent on
-syntax enable
-filetype plugin indent on
-syntax enable
 syntax on
 set number
 set autoindent

@@ -1,0 +1,35 @@
+{
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js"
+		}
+	],
+	"color_scheme": "Packages/User/SublimeLinter/Charcoal (SL).tmTheme",
+	"font_face": "Inconsolata-dz",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"JavaScript"
+	],
+	"preview_on_click": false,
+	"theme": "Boxy Tomorrow.sublime-theme",
+	"theme_sidebar_folder_materialized": true,
+	"theme_sidebar_folder_mono": true,
+	"theme_sidebar_size_xxs": true,
+	"theme_tab_close_always_visible": true,
+	"theme_tab_selected_overlined": true,
+	"theme_tab_size_xs": true,
+	"theme_tab_width_auto": true,
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintage_ctrl_keys": true,
+	"vintage_start_in_command_mode": true,
+	"vintage_use_clipboard": true
+}

@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+{/*$SELECTION*/}
+]]></content>
+  <tabTrigger>jsxc</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
