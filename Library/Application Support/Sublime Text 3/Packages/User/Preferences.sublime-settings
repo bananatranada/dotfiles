@@ -1,4 +1,5 @@
 {
+	"auto_complete": false,
 	"auto_complete_triggers":
 	[
 		{
@@ -10,14 +11,50 @@
 			"selector": "source.js"
 		}
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Charcoal (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"package-lock.json"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".idea",
+		"node_modules"
+	],
 	"font_face": "Inconsolata-dz",
 	"font_size": 13,
 	"ignored_packages":
 	[
-		"JavaScript"
+		"JavaScript",
+		"JavaScript (Gulpfile)"
 	],
 	"preview_on_click": false,
+	"smart_indent": false,
+	"tab_size": 2,
 	"theme": "Boxy Tomorrow.sublime-theme",
 	"theme_sidebar_folder_materialized": true,
 	"theme_sidebar_folder_mono": true,
@@ -31,5 +68,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"vintage_ctrl_keys": true,
 	"vintage_start_in_command_mode": true,
-	"vintage_use_clipboard": true
+	"vintage_use_clipboard": true,
+	"word_wrap": true
 }
